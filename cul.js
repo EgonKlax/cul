@@ -23,7 +23,8 @@ const protocol = {
     uniroll: require('./lib/uniroll.js'),
     ws: require('./lib/ws.js'),
     fht: require('./lib/fht.js'),
-    esa: require('./lib/esa.js')
+    esa: require('./lib/esa.js'),
+    sd_ws07: require('./lib/sd_ws07.js')
 };
 
 // http://culfw.de/commandref.html
@@ -41,7 +42,8 @@ const commands = {
     o: 'Obis',
     t: 'TX',
     U: 'Uniroll',
-    K: 'WS'
+    K: 'WS',
+    s: 'SD_WS07'
 };
 
 const modes = {
