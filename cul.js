@@ -328,6 +328,9 @@ const Cul = function (options) {
                 message.rssi = (rssi >= 128 ? (((rssi - 256) / 2) - 74) : ((rssi / 2) - 74));
             }
         }
+        if (options.debug) {
+            message.rawdata = data;
+        }
 
         that.emit('data', data, message);
     }
