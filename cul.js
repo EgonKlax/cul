@@ -43,7 +43,8 @@ const commands = {
     t: 'TX',
     U: 'Uniroll',
     K: 'WS',
-    s: 'SD_WS07'
+    s: 'SD_WS07',
+    y: 'somfyrts'
 };
 
 const modes = {
