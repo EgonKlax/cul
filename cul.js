@@ -24,7 +24,8 @@ const protocol = {
     ws: require('./lib/ws.js'),
     fht: require('./lib/fht.js'),
     esa: require('./lib/esa.js'),
-    sd_ws07: require('./lib/sd_ws07.js')
+    sd_ws07: require('./lib/sd_ws07.js'),
+    somfyrts: require('./lib/somfyrts.js')
 };
 
 // http://culfw.de/commandref.html
@@ -44,7 +45,7 @@ const commands = {
     U: 'Uniroll',
     K: 'WS',
     s: 'SD_WS07',
-    y: 'somfyrts'
+    Y: 'somfyrts'
 };
 
 const modes = {
